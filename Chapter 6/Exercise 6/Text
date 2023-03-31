@@ -1,0 +1,19 @@
+Using the strip command on a string variable 
+it will remove all of the specified characters 
+in the arguments from either side of the main 
+text, if left blank it will just remove the white 
+space on either side. the replace method will
+replace the first character in the argument with
+the second specified character in the argument.
+
+
+text = ".. Pirate .."
+
+
+striped = text.strip(".")
+
+replaced = text.replace("i","o")
+
+print(striped) #will print "Pirate"
+
+print(replaced) #will print ".. Porate .."
